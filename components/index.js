@@ -1,4 +1,4 @@
 import Layout from "./layout"
-import Footer from "./Footer";
+import Footer from "./Misc/Footer";
 
 export {Footer, Layout}

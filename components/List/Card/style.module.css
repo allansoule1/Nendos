@@ -38,12 +38,6 @@
     text-decoration: none;
 }
 
-.note{
-    display: flex;
-    margin: 0 0 20px 0;
-    padding: 0;
-}
-
 .quality {
     display:flex;
     flex-wrap: wrap;
@@ -57,14 +51,3 @@
     text-decoration: none;
 }
 
-.notum{
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    display: block;
-    margin: 0 1px;
-}
-
-.notum:first-child{
-    margin-left: 10px;
-}

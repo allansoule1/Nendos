@@ -5,13 +5,6 @@ import { motion } from "framer-motion";
 class Header extends React.Component{
 
     render() {
-        const bouncing = {
-            y: {
-              duration: 0.4,
-              yoyo: Infinity,
-              ease: "easeOut",
-            }
-        }
         return (
             <section
                 className={styles.section}
@@ -25,7 +18,7 @@ class Header extends React.Component{
                     <div className={styles.menu}>
                         <ul className={styles.ul}>
                             <li className={styles.li}>
-                                <Link href="/list">
+                                <Link href="/nendo">
                                 <motion.div className={styles.a}
                                     whileHover={{ scale: 1.2, rotate: 0 }}
                                     whileTap={{ scale: 0.8, rotate: 0 }}

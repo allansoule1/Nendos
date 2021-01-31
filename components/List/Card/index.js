@@ -1,6 +1,7 @@
 import React  from "react";
 import styles from './style.module.css'
 import { motion } from "framer-motion";
+import Quality from "../../Misc/Quality";
 
 class Card extends React.Component{
 
@@ -16,7 +17,7 @@ class Card extends React.Component{
               }
             }
           };
-          
+
           const item = {
             hidden: { y: 20, opacity: 0 },
             visible: {
@@ -26,6 +27,7 @@ class Card extends React.Component{
           };
 
         const part = this.props.part;
+
         const quality_color = ["#F55600", "#D48E0B", "#EBCF00", "#84D40B", "#0CF731"];
         const quality_star = Array.from(Array(part.quality).keys())
         return (
@@ -40,6 +42,7 @@ class Card extends React.Component{
                 <div className={styles.quality}>
                     <p >Quality : </p>
                     <p style={{textAlign: "right"}} className={styles.text}>{part.price}</p>
+                    <Quality note={part.quality}/>
                     <motion.ul className={styles.note}
                         variants={container}
                         initial="hidden"
@@ -47,13 +50,10 @@ class Card extends React.Component{
 
                             {quality_star.map((index) => (<motion.li key={index} style={{backgroundColor: quality_color[part.quality-1]}} className={styles.notum} variants={item}/>)
                             )}
-                            
+
                     </motion.ul>
 
                 </div>
-
-
-
             </article>
         );
     }
