@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import {Footer, Layout} from '../../components'
+import {Footer} from '../../components'
 import {Header, Card} from '../../components/List';
 import Link from "next/link";
 
