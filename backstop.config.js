@@ -19,6 +19,14 @@ module.exports = {
      "label": "Nendo Viewpage",
      "url": "http://localhost:3000/nendos"
     },
+     {
+      "label": "Nendo Viewpage",
+      "url": "http://localhost:3000/legal"
+     },
+     {
+      "label": "Nendo Viewpage",
+      "url": "http://localhost:3000/"
+     },
     {
       "label": "BackstopJS Homepage",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",

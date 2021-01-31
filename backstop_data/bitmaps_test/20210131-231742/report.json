@@ -1,10 +1,10 @@
-report({
+{
   "testSuite": "BackstopJS",
   "tests": [
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Nendo_Viewpage_0_document_0_phone.png",
-        "test": "..\\bitmaps_test\\20210131-231917\\backstop_default_Nendo_Viewpage_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20210131-231742\\backstop_default_Nendo_Viewpage_0_document_0_phone.png",
         "selector": "document",
         "fileName": "backstop_default_Nendo_Viewpage_0_document_0_phone.png",
         "label": "Nendo Viewpage",
@@ -26,7 +26,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Nendo_Viewpage_0_document_1_tablet.png",
-        "test": "..\\bitmaps_test\\20210131-231917\\backstop_default_Nendo_Viewpage_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20210131-231742\\backstop_default_Nendo_Viewpage_0_document_1_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Nendo_Viewpage_0_document_1_tablet.png",
         "label": "Nendo Viewpage",
@@ -47,8 +47,40 @@ report({
     },
     {
       "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Nendo_Contact_0__0_phone.png",
+        "test": "..\\bitmaps_test\\20210131-231742\\backstop_default_Nendo_Contact_0__0_phone.png",
+        "selector": "",
+        "fileName": "backstop_default_Nendo_Contact_0__0_phone.png",
+        "label": "Nendo Contact",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/contact",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "engineErrorMsg": "Execution context was destroyed, most likely because of a navigation.",
+        "error": "Reference file not found B:\\nen\\nendoparts\\backstop_data\\bitmaps_reference\\backstop_default_Nendo_Contact_0__0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Nendo_Contact_0__1_tablet.png",
+        "test": "..\\bitmaps_test\\20210131-231742\\backstop_default_Nendo_Contact_0__1_tablet.png",
+        "selector": "",
+        "fileName": "backstop_default_Nendo_Contact_0__1_tablet.png",
+        "label": "Nendo Contact",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/contact",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "engineErrorMsg": "Execution context was destroyed, most likely because of a navigation.",
+        "error": "Reference file not found B:\\nen\\nendoparts\\backstop_data\\bitmaps_reference\\backstop_default_Nendo_Contact_0__1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Nendo_Viewpage_0_document_0_phone.png",
-        "test": "..\\bitmaps_test\\20210131-231917\\backstop_default_Nendo_Viewpage_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20210131-231742\\backstop_default_Nendo_Viewpage_0_document_0_phone.png",
         "selector": "document",
         "fileName": "backstop_default_Nendo_Viewpage_0_document_0_phone.png",
         "label": "Nendo Viewpage",
@@ -70,7 +102,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Nendo_Viewpage_0_document_1_tablet.png",
-        "test": "..\\bitmaps_test\\20210131-231917\\backstop_default_Nendo_Viewpage_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20210131-231742\\backstop_default_Nendo_Viewpage_0_document_1_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Nendo_Viewpage_0_document_1_tablet.png",
         "label": "Nendo Viewpage",
@@ -92,7 +124,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Nendo_Viewpage_0_document_0_phone.png",
-        "test": "..\\bitmaps_test\\20210131-231917\\backstop_default_Nendo_Viewpage_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20210131-231742\\backstop_default_Nendo_Viewpage_0_document_0_phone.png",
         "selector": "document",
         "fileName": "backstop_default_Nendo_Viewpage_0_document_0_phone.png",
         "label": "Nendo Viewpage",
@@ -114,7 +146,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_Nendo_Viewpage_0_document_1_tablet.png",
-        "test": "..\\bitmaps_test\\20210131-231917\\backstop_default_Nendo_Viewpage_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20210131-231742\\backstop_default_Nendo_Viewpage_0_document_1_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Nendo_Viewpage_0_document_1_tablet.png",
         "label": "Nendo Viewpage",
@@ -136,7 +168,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_BackstopJS_Homepage_0_document_0_phone.png",
-        "test": "..\\bitmaps_test\\20210131-231917\\backstop_default_BackstopJS_Homepage_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20210131-231742\\backstop_default_BackstopJS_Homepage_0_document_0_phone.png",
         "selector": "document",
         "fileName": "backstop_default_BackstopJS_Homepage_0_document_0_phone.png",
         "label": "BackstopJS Homepage",
@@ -160,7 +192,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\backstop_default_BackstopJS_Homepage_0_document_1_tablet.png",
-        "test": "..\\bitmaps_test\\20210131-231917\\backstop_default_BackstopJS_Homepage_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20210131-231742\\backstop_default_BackstopJS_Homepage_0_document_1_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_BackstopJS_Homepage_0_document_1_tablet.png",
         "label": "BackstopJS Homepage",
@@ -183,4 +215,4 @@ report({
     }
   ],
   "id": "backstop_default"
-});
+}
